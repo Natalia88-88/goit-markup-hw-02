@@ -143,6 +143,7 @@ ul {
 .footer .logo {
   color: #4d5ae5;
   text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .footer .accent-logo {
