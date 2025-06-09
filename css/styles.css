@@ -8,8 +8,6 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-
-  /* line-height: 21px; */
   text-transform: uppercase;
   line-height: 1.17;
   color: #4d5ae5;
@@ -22,8 +20,8 @@ body {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
-  color: #2e2f42;
   line-height: 1.17;
+  color: #2e2f42;
 }
 
 ul {
@@ -34,14 +32,13 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
 .nav-li:hover,
+.nav-li:focus,
 .nav-li:active {
   color: #404bbf;
 }
@@ -50,9 +47,7 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
@@ -70,9 +65,7 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
@@ -89,9 +82,7 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-
-  /* line-height: 60px; */
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -101,66 +92,19 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   text-align: center;
 }
 .button:hover,
 .button:focus {
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 
-.title-adv {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-
-  /* line-height: 40px; */
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  background: #f4f4fd;
-}
-
-.title-h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-
-  /* line-height: 24px; */
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.advant-list .title-h3 {
-  text-align: center;
-}
-
-.paragraph {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.advant-list .paragraph {
-  text-align: center;
-}
-
-.team {
+.advantages {
   background: #f4f4fd;
 }
 
@@ -168,21 +112,37 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-
-  /* line-height: 40px; */
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
 }
 
-.team .our-team-list {
-  text-align: center;
+.item-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.title-team .paragraph {
-  text-align: left;
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team {
+  background: #f4f4fd;
+}
+
+.team .our-team-list {
+  text-align: center;
 }
 
 .footer {
@@ -193,8 +153,6 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-
-  /* line-height: 21px; */
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -206,8 +164,6 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-
-  /* line-height: 21px; */
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -219,8 +175,6 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
