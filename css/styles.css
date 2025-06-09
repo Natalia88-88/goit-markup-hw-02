@@ -10,11 +10,11 @@ body {
   font-size: 18px;
 
   /* line-height: 21px; */
-  line-height: 117%;
   text-transform: uppercase;
+  line-height: 1.17;
   color: #4d5ae5;
   text-decoration: none;
-  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .accent-logo {
@@ -30,7 +30,7 @@ ul {
   list-style-type: none;
 }
 
-.studio-nav {
+.nav-li {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -41,44 +41,11 @@ ul {
   color: #2e2f42;
   text-decoration: none;
 }
-.studio-nav:hover {
-  color: #404bbf;
-}
-.studio-nav:active {
-  color: #404bbf;
-}
-
-.portfolio-nav {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-.portfolio-nav:hover {
+.nav-li:hover,
+.nav-li:active {
   color: #404bbf;
 }
 
-.contact-nav {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-.contact-nav:hover {
-  color: #404bbf;
-}
 .address-email {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -214,20 +181,7 @@ ul {
   text-align: center;
 }
 
-.title-portfolio {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-
-  /* line-height: 40px; */
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-}
-
-.title-portfolio .paragraph {
+.title-team .paragraph {
   text-align: left;
 }
 
